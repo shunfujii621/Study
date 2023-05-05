@@ -169,7 +169,7 @@ public class Qes1_13 {
 		 * roundメソッドは小数点第一位で四捨五入するため、BMIに10をかけた値を四捨五入した後10で割ることで、小数点数第一位まで表示
 		 * 最終的にdouble型の計算結果を得たいが、このままでは整数値で表示されるため、double型にキャスト
 		 */
-		System.out.println("BMIは" + (double) (Math.round(by * weight / (height2 * height2))) / 10 + "です");
+		System.out.println("BMIは" + (double) (Math.round(10 * weight / (height2 * height2))) / 10 + "です");
 
 		//==================================================================================================================
 
@@ -215,7 +215,7 @@ public class Qes1_13 {
 
 		// 「BMIは22.6です」
 		height2 = height / sh;
-		System.out.println("BMIは" + (double) (Math.round(by * weight / (height2 * height2))) / 10 + "です");
+		System.out.println("BMIは" + (double) (Math.round(10 * weight / (height2 * height2))) / 10 + "です");
 
 		//==================================================================================================================
 
@@ -253,9 +253,9 @@ public class Qes1_13 {
 		// 「好きな食べ物はオムライスです」
 		System.out.println("好きな食べ物は" + favoriteFood + "です");
 
-		// 「BMIは11.3です」
+		// 「BMIは11.31です」
 		height2 = height / sh;
-		System.out.println("BMIは" + (double) (Math.round(by * weight / (height2 * height2))) / 10 + "です");
+		System.out.println("BMIは" + (double) (Math.round(100 * weight / (height2 * height2))) / 100 + "です");
 
 		//==================================================================================================================
 
@@ -315,6 +315,7 @@ public class Qes1_13 {
 		 * Q13.「Q12」で変換した【年齢・身長】で【年齢が25もしくは身長が160以上】であればtrueを出力
 		 * ただしif文は使用不可
 		 */
+
 		System.out.println(intAge == 25 || intHeight >= 160);
 
 	}
