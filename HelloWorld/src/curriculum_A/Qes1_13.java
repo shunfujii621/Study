@@ -95,7 +95,7 @@ public class Qes1_13 {
 		System.out.println(by * sh * in * lo);
 
 		//10.5割る100をして 0.105 を出力
-		System.out.println(fl / sh);
+		System.out.println(db / sh);
 
 		//10引く100をして -90 を出力
 		System.out.println(by - sh);
