@@ -20,7 +20,7 @@ public class Qes4 {
 					System.out.printf("%02d * %02d = %02d || ", num1, num2, answers);
 				}
 				// 変数num2が9になった場合、区切り「||」がない状態で式を出力
-				if (num2 == 9) {
+				else if (num2 == 9) {
 					System.out.printf("%02d * %02d = %02d ", num1, num2, answers);
 				}
 			}
