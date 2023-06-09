@@ -86,6 +86,7 @@ public class Curriculum_New_1_18 {
 	// Q6：引数にQ5で作成したメソッドの返り値を受け取り、受け取った配列の要素の平均値をコンソールに出力するメソッドを作成してください。
 	// ※小数点以下も表示されるようにしてください。
 
+	// 倍精度浮動小数点数型のaverageメソッドを定義し、引数としてnumbers配列を受け取る
 	public static double average(int[] numbers) {
 		// 整数型の変数sumを定義し、初期化
 		int sum = 0;
@@ -106,7 +107,9 @@ public class Curriculum_New_1_18 {
 
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 
+	// jedgeメソッドを定義し、引数として変数averageを受け取る
 	public static void jedge(double average) {
+		// averageが50以上の場合true、それ以外はfalseを出力
 		if (average >= 50) {
 			System.out.println(true);
 		} else {
@@ -167,8 +170,9 @@ public class Curriculum_New_1_18 {
 		// 改行
 		System.out.println();
 		//=======================
-		
-		// Q6.
+
+		// Q7.
 		jedge(avg);
+
 	}
 }
