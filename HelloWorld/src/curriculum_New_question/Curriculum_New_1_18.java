@@ -168,7 +168,7 @@ public class Curriculum_New_1_18 {
 
 		//=======================
 		// 改行
-		System.out.println();
+		System.out.println("");
 		//=======================
 
 		// Q7.
